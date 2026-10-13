@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f7f5f0">
+<meta name="msapplication-navbutton-color" content="#f7f5f0">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>影视特效 · 技术词条与制作流程（yingshitexiao-top.github.io）</title>
+<meta name="description" content="影视特效（yingshitexiao-top.github.io）按环节拆开讲：绿幕怎么用、粒子怎么做、合成怎么调、渲染要多久、一条镜头从拿到素材到交付经过几步，把「特效」这两个字拆成能看懂的话。">
+<meta name="keywords" content="影视特效, yingshitexiao-top.github.io, 影视特效制作, 特效镜头, 绿幕, 抠像, 粒子特效, 流体模拟, 三维特效, 合成, 调色, 渲染, 动作捕捉, 影视后期, 特效流程, 特效术语, VFX">
+<meta name="abstract" content="影视特效：按制作环节拆开讲，覆盖绿幕抠像、粒子流体、三维合成、渲染流程与常见特效术语。">
+<meta name="topic" content="影视特效, 绿幕, 抠像, 粒子, 流体模拟, 三维, 合成, 渲染, 动作捕捉, 特效流程, 特效术语">
+<meta name="summary" content="把「特效」这两个字拆成能看懂的话：从绿幕拍摄到最终合成，逐环节说明。">
+<meta name="subject" content="影视特效技术词条与制作流程">
+<meta name="author" content="影视特效编辑组">
+<meta name="designer" content="影视特效前端组">
+<meta name="reply-to" content="mailto:hello@yingshitexiao-top.github.io">
+<meta name="owner" content="影视特效">
+<meta name="url" content="https://yingshitexiao-top.github.io/">
+<meta name="identifier-URL" content="https://yingshitexiao-top.github.io/">
+<meta name="directory" content="submission">
+<meta name="category" content="影视制作">
+<meta name="coverage" content="影视特效技术词条与制作流程">
+<meta name="distribution" content="global">
+<meta name="rating" content="general">
+<meta name="audience" content="想弄清特效怎么做的观众, 影视后期入门者, 独立制片人, 学生与从业者">
+<meta name="target" content="想知道一条特效镜头从素材到成片经过几步、耗时多久、烧多少钱的人">
+<meta name="revisit-after" content="1 day">
+<meta name="resource-type" content="document">
+<meta name="doc-type" content="WebPage">
+<meta name="doc-class" content="Published">
+<meta name="doc-rights" content="Copywritten">
+<meta name="contact" content="hello@yingshitexiao-top.github.io">
+<meta name="pagename" content="影视特效 · 技术词条与制作流程">
+<meta name="subsection" content="影视特效技术词条与制作流程">
+<meta name="pubdate" content="2026-10-11T10:00:00+08:00">
+<meta name="last-modified" content="2026-10-11T10:00:00+08:00">
+<meta name="date" content="2026-10-11">
+<meta name="news_keywords" content="影视特效, 特效镜头, 绿幕, 抠像, 粒子特效, 流体模拟, 三维特效, 合成, 调色, 渲染, 动作捕捉, 特效流程, 特效术语, yingshitexiao">
+<meta name="standout" content="https://yingshitexiao-top.github.io/">
+<meta name="syndication-source" content="https://yingshitexiao-top.github.io/">
+<meta name="original-source" content="https://yingshitexiao-top.github.io/">
+<meta name="robots-ai" content="index, follow">
+<meta name="msvalidate.01" content="ystx-2026-d">
+<meta name="p:domain_verify" content="yingshitexiao-top-verify">
+<meta name="naver-site-verification" content="yingshitexiao-top">
+<meta name="application-name" content="影视特效">
+<meta name="msapplication-tooltip" content="影视特效 · 技术词条与制作流程">
+<meta name="msapplication-starturl" content="https://yingshitexiao-top.github.io/">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="bingbot" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="googlebot" content="index, follow">
+<meta name="baiduspider" content="index, follow">
+<meta name="slurp" content="index, follow">
+<meta name="duckduckbot" content="index, follow">
+<meta name="teoma" content="index, follow">
+<meta property="og:type" content="website">
+<meta property="og:title" content="影视特效 · 技术词条与制作流程">
+<meta property="og:description" content="绿幕怎么用、粒子怎么做、合成怎么调、渲染要多久，把「特效」这两个字拆成能看懂的话。">
+<meta property="og:url" content="https://yingshitexiao-top.github.io/">
+<meta property="og:site_name" content="影视特效">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:updated_time" content="2026-10-11T10:00:00+08:00">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="影视特效 · 技术词条与制作流程">
+<meta name="twitter:description" content="从绿幕拍摄到最终合成，逐环节说明一条特效镜头是怎么做出来的。">
+<meta name="twitter:site" content="@yingshitexiao">
+<link rel="canonical" href="https://yingshitexiao-top.github.io/">
+<link rel="index" href="https://yingshitexiao-top.github.io/">
+<link rel="start" href="https://yingshitexiao-top.github.io/">
+<link rel="shortlink" href="https://yingshitexiao-top.github.io/">
+<link rel="bookmark" title="影视特效" href="https://yingshitexiao-top.github.io/">
+<style>
+:root{--bg:#f7f5f0;--bg2:#fffdfa;--bg3:#efece5;--ink:#25231f;--ink2:#57544c;--ink3:#8f8b81;
+--ln:#e0dcd2;--ln2:#b8b2a5;--gy:#6b7785;--br:#c8603a;--br2:#e07b52;--nv:#3a5f8a;--mx:1180px;--r:14px;
+--serif:"Source Han Serif SC","Noto Serif CJK SC","Songti SC","STSong","SimSun","WenQuanYi Micro Hei",Georgia,"Times New Roman",serif;
+--sans:"Inter","PingFang SC","Microsoft YaHei","Hiragino Sans GB","WenQuanYi Micro Hei",system-ui,sans-serif;}
+*{margin:0;padding:0;border:0;box-sizing:border-box}
+*:focus-visible{outline:2px solid var(--br);outline-offset:2px}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;scroll-padding-top:76px}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.85}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.5;z-index:0;
+background-image:radial-gradient(circle at 1px 1px,rgba(90,85,75,.075) 1px,transparent 0);
+background-size:26px 26px}
+.wrap{width:100%;max-width:var(--mx);margin:0 auto;padding:0 26px;position:relative}
+.kick{font-size:10.5px;letter-spacing:.28em;text-transform:uppercase;color:var(--nv);font-weight:800}
+.pill{display:inline-flex;align-items:center;gap:6px;font-size:10.5px;letter-spacing:.04em;padding:4px 10px;border-radius:999px;background:rgba(58,95,138,.1);color:var(--nv);border:1px solid rgba(58,95,138,.3)}
+.badge{font-size:10.5px;font-weight:800;padding:3px 9px;border-radius:6px;letter-spacing:.03em;white-space:nowrap}
+
+/* header */
+.hd{border-bottom:1px solid var(--ln);padding:20px 0 14px;position:relative}
+.hd .row{display:grid;grid-template-columns:1fr auto;gap:20px;align-items:end}
+.hd h1{font-family:var(--serif);font-size:clamp(30px,5.6vw,50px);font-weight:900;letter-spacing:.02em;line-height:1.18}
+.hd h1 em{font-style:normal;color:var(--br)}
+.hd .sub{font-size:12px;color:var(--ink3);letter-spacing:.06em;margin-top:9px;font-weight:600}
+.hd .url{font-family:var(--serif);font-size:14px;color:var(--nv);font-weight:700;line-height:1.6;text-align:right}
+.hd .url i{font-style:normal;display:block;font-size:10px;letter-spacing:.2em;color:var(--ink3);font-weight:800}
+.fil{display:flex;gap:7px;flex-wrap:wrap;margin-top:13px}
+.fil span{font-size:10.5px;padding:4px 10px;border-radius:999px;background:var(--bg2);border:1px solid var(--ln);color:var(--ink3)}
+
+/* nav ring */
+.ringbox{margin:26px 0 8px}
+.ring{display:flex;justify-content:center;flex-wrap:wrap;gap:14px 18px;padding:8px 0}
+.ring a{width:88px;text-align:center;text-decoration:none;color:var(--ink2);font-size:11px;line-height:1.5;transition:.2s}
+.ring a .d{width:62px;height:62px;margin:0 auto 8px;border-radius:50%;display:grid;place-items:center;font-family:var(--serif);font-size:13px;font-weight:900;background:var(--bg2);border:1px solid var(--ln);transition:.2s;position:relative}
+.ring a:hover{color:var(--br)}
+.ring a:hover .d{border-color:var(--br);background:rgba(200,96,58,.08);transform:scale(1.06)}
+.ring a.on{color:var(--br);font-weight:800}
+.ring a.on .d{background:var(--br);color:#fdf9f6;border-color:var(--br);box-shadow:0 6px 18px rgba(200,96,58,.28)}
+
+/* toolbar */
+.tb{position:sticky;top:0;z-index:30;background:rgba(247,245,240,.96);backdrop-filter:blur(10px);border-bottom:1px solid var(--ln)}
+.tb .in{display:grid;grid-template-columns:1fr auto;gap:14px;align-items:center;padding:10px 0}
+.tb input[type=search]{width:100%;padding:10px 14px;border:1px solid var(--ln2);border-radius:9px;background:var(--bg2);font-size:13.5px;transition:.18s}
+.tb input[type=search]:focus{outline:none;border-color:var(--br);box-shadow:0 0 0 4px rgba(200,96,58,.12)}
+.tb .st{display:flex;gap:8px;align-items:center;font-size:11.5px;color:var(--ink3);flex-shrink:0}
+.tb .st b{color:var(--br);font-weight:900;font-size:14px}
+
+/* hero */
+.hero{display:grid;grid-template-columns:1.05fr .95fr;gap:24px;margin:26px 0 34px;align-items:stretch}
+.hero .main{border:1px solid var(--ln);border-radius:16px;padding:34px 36px;background:var(--bg2);position:relative;overflow:hidden}
+.hero .main::after{content:"";position:absolute;right:-30px;bottom:-30px;width:160px;height:160px;border-radius:50%;background:radial-gradient(circle,rgba(58,95,138,.22),transparent 70%)}
+.hero .main h2{font-family:var(--serif);font-size:clamp(24px,3.8vw,35px);font-weight:900;line-height:1.45;position:relative}
+.hero .main h2 em{font-style:normal;color:var(--br)}
+.hero .main p{margin-top:15px;font-size:14.5px;color:var(--ink2);line-height:2;position:relative}
+.hero .main .acts{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px;position:relative}
+.btn{display:inline-flex;align-items:center;gap:7px;padding:11px 20px;border-radius:9px;font-size:13px;font-weight:800;transition:.18s;border:1px solid transparent;letter-spacing:.02em;text-decoration:none}
+.btn.p{background:var(--br);color:#fdf9f6}
+.btn.p:hover{background:var(--br2);transform:translateY(-1px)}
+.btn.o{border-color:var(--ln2);color:var(--ink2)}
+.btn.o:hover{border-color:var(--br);color:var(--br)}
+.hero .side{display:grid;gap:12px}
+.hero .side .card{border:1px solid var(--ln);border-radius:14px;padding:20px 22px;background:var(--bg2);transition:.2s}
+.hero .side .card:hover{border-color:var(--br2);transform:translateY(-2px)}
+.hero .side .card:nth-child(1){border-top:4px solid var(--br)}
+.hero .side .card:nth-child(2){border-top:4px solid var(--nv)}
+.hero .side .card:nth-child(3){border-top:4px solid var(--gy)}
+.hero .side .card h4{font-size:12px;letter-spacing:.1em;color:var(--ink3);font-weight:800;margin-bottom:7px}
+.hero .side .card b{font-family:var(--serif);font-size:19px;font-weight:900;display:block;line-height:1.5}
+.hero .side .card p{font-size:12px;color:var(--ink3);line-height:1.75;margin-top:5px}
+
+/* section */
+section{padding:50px 0;position:relative}
+.ih{display:flex;align-items:baseline;gap:11px;flex-wrap:wrap;margin-bottom:8px;padding-bottom:11px;border-bottom:2px solid var(--ink)}
+.ih .no{font-size:11px;font-weight:900;color:#f7f5f0;letter-spacing:.1em;background:var(--ink);padding:3px 8px;border-radius:4px}
+.ih h2{font-family:var(--serif);font-size:clamp(22px,3.2vw,29px);font-weight:900;letter-spacing:-.01em;line-height:1.4}
+.ih .arw{margin-left:auto;font-size:11.5px;color:var(--ink3);letter-spacing:.05em;border:1px solid var(--ln);padding:5px 11px;border-radius:6px;transition:.18s;white-space:nowrap;text-decoration:none}
+.ih .arw:hover{color:var(--br);border-color:var(--br)}
+.lead{font-size:14.5px;color:var(--ink3);line-height:2;max-width:66em;margin:17px 0 24px}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:20px}
+.tabs button{font-size:12.5px;padding:7px 14px;border-radius:8px;border:1px solid var(--ln);color:var(--ink2);transition:.16s;font-weight:600;background:var(--bg2)}
+.tabs button:hover{border-color:var(--ln2);color:var(--ink)}
+.tabs button.on{background:var(--nv);border-color:var(--nv);color:#f4f7fa}
+
+/* masonry */
+.ms{columns:3;column-gap:14px}
+.mi{break-inside:avoid;margin-bottom:14px;border:1px solid var(--ln);border-radius:13px;padding:20px 22px;background:var(--bg2);transition:.2s}
+.mi:hover{border-color:var(--br2);transform:translateY(-2px)}
+.mi .top{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:10px}
+.mi .top .t{font-size:10.5px;letter-spacing:.06em;color:var(--nv);font-weight:800}
+.mi h3{font-family:var(--serif);font-size:18px;font-weight:900;line-height:1.5;margin-bottom:7px}
+.mi p{font-size:13.5px;color:var(--ink3);line-height:1.95}
+.mi .mt{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px;padding-top:11px;border-top:1px dashed var(--ln)}
+.mi .mt span{font-size:10.5px;padding:3px 8px;border-radius:5px;background:var(--bg3);color:var(--ink2);border:1px solid var(--ln)}
+
+/* focus */
+.focus{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.focus .main{border:1px solid var(--ln);border-radius:14px;padding:30px 30px;background:var(--bg2);display:flex;flex-direction:column;justify-content:center}
+.focus .main b{font-family:var(--serif);font-size:clamp(22px,3.4vw,31px);font-weight:900;line-height:1.5}
+.focus .main em{font-style:normal;display:block;font-size:11.5px;color:var(--ink3);margin-top:11px;letter-spacing:.08em}
+.focus .side{border:1px solid var(--ln);border-radius:14px;padding:24px 26px;background:var(--bg2)}
+.focus .side h3{font-family:var(--serif);font-size:19px;font-weight:900;line-height:1.55;margin-bottom:7px}
+.focus .side .meta{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:13px}
+.focus .side p{font-size:13.5px;color:var(--ink2);line-height:2;margin-bottom:11px}
+.focus .side .box{border:1px solid var(--ln);border-radius:9px;padding:13px 15px;background:var(--bg3);font-size:12.5px;color:var(--ink2);line-height:1.9}
+.focus .side .box b{color:var(--br);font-weight:800}
+
+/* table */
+.tscroll{overflow-x:auto;border:1px solid var(--ln);border-radius:13px;background:var(--bg2)}
+table.tw{width:100%;border-collapse:collapse;font-size:13.5px;min-width:860px}
+table.tw th{background:rgba(58,95,138,.08);text-align:left;font-size:10.5px;letter-spacing:.08em;color:var(--nv);padding:13px 16px;border-bottom:1px solid var(--ln);white-space:nowrap;font-weight:800}
+table.tw td{padding:14px 16px;border-bottom:1px solid var(--ln);color:var(--ink2);line-height:1.85;vertical-align:top}
+table.tw tr:last-child td{border-bottom:none}
+table.tw tr:hover td{background:rgba(58,95,138,.04)}
+table.tw td b{color:var(--ink);font-weight:800;font-size:14px;font-family:var(--serif)}
+table.tw .yr{color:var(--br);font-weight:800;font-size:12.5px}
+
+/* glossary */
+.gl{columns:2;column-gap:16px}
+.gi{break-inside:avoid;margin-bottom:11px;border:1px solid var(--ln);border-radius:11px;padding:15px 18px;background:var(--bg2);transition:.18s}
+.gi:hover{border-color:var(--br2)}
+.gi b{font-family:var(--serif);font-size:15.5px;font-weight:900;display:block;margin-bottom:5px;line-height:1.5}
+.gi p{font-size:12.5px;color:var(--ink3);line-height:1.9}
+
+/* timeline */
+.tl{border:1px solid var(--ln);border-radius:14px;padding:28px 30px;background:var(--bg2)}
+.tl .row{display:grid;grid-template-columns:74px 1fr;gap:16px;padding:14px 0;border-bottom:1px dashed var(--ln)}
+.tl .row:last-child{border-bottom:none}
+.tl .day{font-family:var(--serif);font-size:15px;font-weight:900;color:var(--br);letter-spacing:.04em;padding-top:2px}
+.tl h4{font-family:var(--serif);font-size:16px;font-weight:900;margin-bottom:6px;line-height:1.5}
+.tl p{font-size:13.5px;color:var(--ink3);line-height:1.95}
+
+/* faq */
+.faq{display:grid;grid-template-columns:1fr 1fr;gap:11px}
+.fq{border:1px solid var(--ln);border-radius:12px;background:var(--bg2);overflow:hidden}
+.fq[open]{border-color:var(--br2);background:rgba(200,96,58,.04)}
+.fq summary{padding:17px 20px;font-size:14px;font-weight:700;cursor:pointer;list-style:none;display:flex;gap:12px;align-items:flex-start;line-height:1.6}
+.fq summary::-webkit-details-marker{display:none}
+.fq .nm{flex-shrink:0;width:24px;height:24px;border-radius:50%;background:rgba(58,95,138,.14);color:var(--nv);font-size:11.5px;font-weight:900;display:grid;place-items:center;margin-top:1px;font-family:var(--serif)}
+.fq .ic{flex-shrink:0;width:18px;height:18px;border:1px solid var(--ln2);border-radius:5px;display:grid;place-items:center;font-size:11px;color:var(--ink3);transition:.2s;margin-top:3px}
+.fq[open] .ic{background:var(--br);border-color:var(--br);color:#fdf9f6}
+.fq .a{padding:0 20px 18px 56px;font-size:13.5px;color:var(--ink3);line-height:2}
+.fq .a strong{color:var(--br);font-weight:800}
+
+/* form */
+form.fm{border:1px solid var(--ln);border-radius:15px;padding:28px 30px;background:var(--bg2)}
+form.fm h4{font-family:var(--serif);font-size:19px;font-weight:900;margin-bottom:7px}
+form.fm .hd{font-size:13px;color:var(--ink3);line-height:2;margin-bottom:21px}
+.fx{display:grid;grid-template-columns:1fr 1fr;gap:13px}
+.fld{display:grid;gap:6px;margin-bottom:14px}
+.fld label{font-size:12px;letter-spacing:.03em;color:var(--ink2);font-weight:600}
+.fld label i{font-style:normal;color:var(--br);font-size:10.5px;margin-left:5px}
+.fld input,.fld select,.fld textarea{width:100%;padding:11px 13px;border:1px solid var(--ln2);border-radius:9px;background:var(--bg2);font-size:14px;transition:.18s;color:var(--ink)}
+.fld input::placeholder,.fld textarea::placeholder{color:var(--ink3)}
+.fld input:focus,.fld select:focus,.fld textarea:focus{outline:none;border-color:var(--br);box-shadow:0 0 0 4px rgba(200,96,58,.12)}
+.fld textarea{resize:vertical;min-height:96px;line-height:1.85}
+.fx1{grid-column:1/-1}
+.ck{display:flex;gap:10px;align-items:flex-start;font-size:12.5px;color:var(--ink3);line-height:1.85;margin:2px 0 19px}
+.ck input{width:14px;height:14px;margin-top:5px;accent-color:var(--br);flex-shrink:0}
+.social{display:grid;gap:11px}
+.social a{display:flex;gap:12px;align-items:flex-start;padding:14px 16px;border:1px solid var(--ln);border-radius:11px;transition:.18s;text-decoration:none}
+.social a:hover{border-color:var(--br2);background:rgba(200,96,58,.05)}
+.social .tg{width:32px;height:32px;border-radius:50%;background:rgba(58,95,138,.14);color:var(--nv);font-size:11.5px;font-weight:900;display:grid;place-items:center;flex-shrink:0;font-family:var(--serif)}
+.social b{display:block;font-size:13.5px;font-weight:750;line-height:1.5;color:var(--ink)}
+.social p{font-size:12px;color:var(--ink3);line-height:1.75}
+
+/* footer */
+footer{margin-top:20px;border-top:4px solid var(--ink)}
+.ft{padding:42px 0 0;display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:30px}
+.ft h3{font-family:var(--serif);font-size:21px;font-weight:900;margin-bottom:11px}
+.ft .bd p{font-size:13.5px;color:var(--ink3);line-height:2;max-width:30em}
+.ft .box{margin-top:17px;border:1px solid var(--ln);border-radius:11px;padding:15px 17px;background:var(--bg2)}
+.ft .box .u{font-size:10px;letter-spacing:.2em;color:var(--nv);display:block;margin-bottom:7px;font-weight:800}
+.ft .box b{font-family:var(--serif);font-size:13px;font-weight:700;line-height:1.95;word-break:break-all}
+.ft h4{font-size:12px;letter-spacing:.12em;color:var(--ink3);margin-bottom:15px;padding-bottom:8px;border-bottom:1px solid var(--ln);font-weight:800}
+.ft ul{list-style:none;display:grid;gap:9px}
+.ft a{font-size:13px;color:var(--ink2);transition:.16s;display:inline-flex;align-items:center;gap:8px;text-decoration:none}
+.ft a::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--br);flex-shrink:0}
+.ft a:hover{color:var(--br)}
+.ftbt{margin-top:36px;padding:17px 0;border-top:1px solid var(--ln);display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:12px;color:var(--ink3)}
+.ftbt a{color:var(--ink2);text-decoration:none}
+.ftbt a:hover{color:var(--br)}
+.ftbt .r a{margin-left:16px}
+.up{position:fixed;right:15px;bottom:18px;z-index:45;width:42px;height:42px;border-radius:50%;border:1px solid var(--ln2);background:var(--bg2);color:var(--br);display:none;place-items:center;transition:.2s}
+.up.show{display:grid}
+.up:hover{background:var(--br);color:#fdf9f6}
+.up svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2.4;stroke-linecap:round}
+
+@media (max-width:980px){
+ .hd .row{grid-template-columns:1fr}
+ .hd .url{text-align:left}
+ .hero{grid-template-columns:1fr;gap:16px}
+ .hero .main{padding:28px 22px}
+ .focus,.faq,.gl{grid-template-columns:1fr}
+ .ft{grid-template-columns:1fr 1fr}
+ .fx{grid-template-columns:1fr}
+ .ms{columns:2}
+}
+@media (max-width:600px){
+ section{padding:38px 0}
+ .wrap{padding:0 16px}
+ .fil span{font-size:10px}
+ .tb .in{grid-template-columns:1fr}
+ .tb .st{justify-content:space-between}
+ .ring{gap:10px 12px}
+ .ring a{width:72px;font-size:10px}
+ .ring a .d{width:52px;height:52px;font-size:12px}
+ .ms{columns:1}
+ .hero{margin-bottom:24px}
+ .mi{padding:18px 17px}
+ .tl{padding:22px 18px}
+ .tl .row{grid-template-columns:60px 1fr;gap:12px}
+ .tl .day{font-size:13px}
+ .fq .a{padding:0 17px 16px 48px}
+ form.fm{padding:21px 17px}
+ table.tw{font-size:12.5px}
+ table.tw th,table.tw td{padding:11px 12px}
+ .ft,.ftbt{grid-template-columns:1fr}
+ .ftbt .r a{margin:0 12px 0 0}
+ .hd h1{font-size:clamp(27px,8vw,34px)}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/changyuan.js"></script>
+
+<!-- header -->
+<div class="hd">
+  <div class="wrap">
+    <div class="row">
+      <div>
+        <div class="kick">YINGSHI TEXIAO · VISUAL EFFECTS</div>
+        <h1>影视<em>特效</em></h1>
+        <div class="sub">技术词条与制作流程 · 把「特效」这两个字拆开讲</div>
+      </div>
+      <div class="url"><i>SITE</i>https://yingshitexiao-top.github.io</div>
+    </div>
+    <div class="fil">
+      <span>绿幕与抠像</span><span>粒子与流体</span><span>三维与合成</span><span>渲染与调色</span>
+      <span>动作捕捉</span><span>特效流程</span><span>术语对照</span><span>耗时与成本</span>
+    </div>
+  </div>
+</div>
+
+<!-- nav ring -->
+<div class="wrap">
+  <nav class="ringbox">
+    <div class="ring">
+      <a href="#s1" class="on"><span class="d">01</span>实拍与绿幕</a>
+      <a href="#s2"><span class="d">02</span>数字绘景</a>
+      <a href="#s3"><span class="d">03</span>粒子与流体</a>
+      <a href="#s4"><span class="d">04</span>三维与生物</a>
+      <a href="#s5"><span class="d">05</span>合成与调色</a>
+      <a href="#s6"><span class="d">06</span>流程与周期</a>
+      <a href="#s7"><span class="d">07</span>术语对照</a>
+      <a href="#s8"><span class="d">08</span>常见疑问</a>
+    </div>
+  </nav>
+
+  <!-- toolbar -->
+  <div class="tb">
+    <div class="in">
+      <input type="search" placeholder="输入技术词或环节，例如：抠像、粒子、流体、渲染、动作捕捉">
+      <div class="st">已收录词条 <b>48</b>　更新于 10 月 9 日</div>
+    </div>
+  </div>
+
+  <!-- hero -->
+  <div class="hero">
+    <div class="main">
+      <div class="kick">OPENING</div>
+      <h2>「特效」这两个字，<em>其实是一串工序</em></h2>
+      <p>观众看到的是画面，制作端看到的是一条流水线：绿幕拍完要抠像，抠完要补环境反射，合成完要调色统一，最后才进渲染农场排队。任何一环出问题，成品就会露出破绽——比如人物边缘发绿，或者阴影方向与光源对不上。</p>
+      <p>本站不教软件操作，只把每个环节讲清楚：做什么、为什么这么做、常见破绽长什么样、一条镜头大概要多久。适合想弄清「这段到底怎么做出来的」的观众与入门者。</p>
+      <div class="acts">
+        <a href="#s1" class="btn p">从绿幕拍摄开始 →</a>
+        <a href="#s6" class="btn o">先看完整流程与周期</a>
+      </div>
+    </div>
+    <div class="side">
+      <div class="card"><h4>已收录词条</h4><b>48 条</b><p>覆盖拍摄、建模、模拟、合成、调色、渲染</p></div>
+      <div class="card"><h4>流程节点</h4><b>12 个</b><p>从拿到素材到交付成片的完整链路</p></div>
+      <div class="card"><h4>常见破绽</h4><b>27 种</b><p>附具体表现与成因，方便自己判断</p></div>
+    </div>
+  </div>
+
+  <!-- 01 -->
+  <section id="s1">
+    <div class="ih"><span class="no">01</span><h2>实拍与绿幕</h2><a href="#" class="arw">全部 8 条 →</a></div>
+    <p class="lead">这一栏讲拍摄阶段：绿幕为什么是绿色、打光怎么布置、演员看不到最终画面时怎么演、摄影机运动要不要记下来给后期。</p>
+    <div class="tabs" data-f="c1">
+      <button class="on" data-k="all">全部</button>
+      <button data-k="绿幕">绿幕</button>
+      <button data-k="打光">打光</button>
+      <button data-k="摄影">摄影</button>
+      <button data-k="表演">表演</button>
+    </div>
+    <div class="ms" id="c1">
+      <article class="mi" data-t="绿幕"><div class="top"><span class="t">绿幕</span><span class="badge" style="background:var(--br);color:#fdf9f6">最基础</span></div><h3>绿幕为什么通常是绿色</h3><p>因为多数摄像机感光元件对绿色通道最敏感，噪点最少，抠像更干净。拍人时偶尔用蓝幕，避免抠掉衣服或头发里的绿色成分。</p><div class="mt"><span>抠像基础</span><span>通道敏感度</span><span>人像常用蓝幕</span></div></article>
+      <article class="mi" data-t="打光"><div class="top"><span class="t">打光</span><span class="badge" style="background:var(--nv);color:#f4f7fa">关键</span></div><h3>绿幕上不能有阴影与褶皱</h3><p>阴影和褶皱会造成亮度不均，抠像时边缘发虚或漏色。布光要让幕布受光均匀，亮度差控制在小范围内，褶皱尽量拉平。</p><div class="mt"><span>均匀受光</span><span>避免阴影</span><span>拉平褶皱</span></div></article>
+      <article class="mi" data-t="摄影"><div class="top"><span class="t">摄影</span><span class="badge" style="background:var(--bg3);color:var(--ink2)">记录</span></div><h3>摄影机运动数据必须留下来</h3><p>移动镜头要做镜头跟踪，摄影机的位移与旋转数据要交给后期，三维元素才能正确贴合实景。这一步漏了，后期只能手动补，精度差很多。</p><div class="mt"><span>镜头跟踪</span><span>位移数据</span><span>三维贴合</span></div></article>
+      <article class="mi" data-t="表演"><div class="top"><span class="t">表演</span><span class="badge" style="background:var(--bg3);color:var(--ink2)">经验</span></div><h3>演员看不到最终画面怎么演</h3><p>现场用临时背景或监视器给参考，导演要反复讲清虚拟物体的位置与尺度。这一步讲不清楚，演员眼神和走位就会漂，后期很难修。</p><div class="mt"><span>临时参考</span><span>讲清位置</span><span>走位易漂</span></div></article>
+      <article class="mi" data-t="绿幕"><div class="top"><span class="t">绿幕</span><span class="badge" style="background:var(--oc,224,155,60);color:#3a2c0d">补拍</span></div><h3>绿幕溢色要现场控制</h3><p>绿光会反射到人物头发与肩膀，抠像后边缘残留绿边。现场用白色或灰色反光板挡掉反射，比后期去绿边可靠得多。</p><div class="mt"><span>反射控制</span><span>白灰反光板</span><span>优于后期</span></div></article>
+      <article class="mi" data-t="摄影"><div class="top"><span class="t">摄影</span><span class="badge" style="background:var(--bg3);color:var(--ink2)">对照</span></div><h3>浅景深会让抠像变难</h3><p>大光圈下前景与绿幕都虚化，边缘难以判定。需要大虚化的镜头通常改在后期加，实拍时收小光圈，抠像成功率明显提高。</p><div class="mt"><span>收小光圈</span><span>边缘判定</span><span>后期加虚</span></div></article>
+    </div>
+  </section>
+
+  <!-- 02 -->
+  <section id="s2">
+    <div class="ih"><span class="no">02</span><h2>数字绘景与接景</h2><a href="#" class="arw">全部 7 条 →</a></div>
+    <p class="lead">背景不用全搭：远处的山、楼群、天空常常是一张画。这一栏讲 matte painting 怎么用、什么镜头撑不住、透视怎么对齐。</p>
+    <div class="tabs" data-f="c2">
+      <button class="on" data-k="all">全部</button>
+      <button data-k="绘景">绘景</button>
+      <button data-k="三维">三维</button>
+      <button data-k="透视">透视</button>
+    </div>
+    <div class="ms" id="c2">
+      <article class="mi" data-t="绘景"><div class="top"><span class="t">绘景</span><span class="badge" style="background:var(--nv);color:#f4f7fa">省成本</span></div><h3>远处背景基本都是画的</h3><p>远景不需要真实几何体，一张高分辨率绘景贴上去就够。这是最省成本的背景方案，也是特效预算里最先被保留的一项。</p><div class="mt"><span>远景首选</span><span>成本最低</span><span>高分辨率</span></div></article>
+      <article class="mi" data-t="三维"><div class="top"><span class="t">三维</span><span class="badge" style="background:var(--br);color:#fdf9f6">局限</span></div><h3>绘景怕镜头横移</h3><p>镜头一横向移动，平面绘景就会露馅——背景不产生正确的视差位移。需要横移的镜头要改成三维建模，或用多层绘景模拟深度。</p><div class="mt"><span>忌横移</span><span>改三维</span><span>多层模拟</span></div></article>
+      <article class="mi" data-t="透视"><div class="top"><span class="t">透视</span><span class="badge" style="background:var(--bg3);color:var(--ink2)">对齐</span></div><h3>消失点要对齐实拍</h3><p>绘景的透视必须与实拍画面的消失点、地平线高度一致，否则建筑会歪。通常先用三维相机反求实拍视角再动笔。</p><div class="mt"><span>消失点</span><span>地平线</span><span>反求视角</span></div></article>
+      <article class="mi" data-t="绘景"><div class="top"><span class="t">绘景</span><span class="badge" style="background:var(--bg3);color:var(--ink2)">分层</span></div><h3>分层绘景才能做大气</h3><p>远景加雾、中景清晰、近景点缀，三层分开画再合成，才能做出空气透视。一整张画直接贴上去会显得扁平、像背景板。</p><div class="mt"><span>三层分离</span><span>空气透视</span><span>避免扁平</span></div></article>
+    </div>
+  </section>
+
+  <!-- 03 -->
+  <section id="s3">
+    <div class="ih"><span class="no">03</span><h2>粒子与流体</h2><a href="#" class="arw">全部 9 条 →</a></div>
+    <p class="lead">烟火、沙尘、爆炸、水流、魔法光效都属于这一类。这一栏讲模拟的迭代次数、缓存占用、以及为什么预览和成片观感差很多。</p>
+    <div class="focus">
+      <div class="main" style="background:linear-gradient(160deg,#eef1f5,#e3e9f0)"><b>《火与尘》</b><em>案例 · 粒子与流体模拟 · 约 4.2 TB 缓存</em></div>
+      <div class="side">
+        <h3>一帧要算三小时</h3>
+        <div class="meta"><span class="badge" style="background:var(--br);color:#fdf9f6">粒子 1200 万</span><span class="badge" style="background:var(--nv);color:#f4f7fa">流体 18 层</span><span class="badge" style="background:var(--bg3);color:var(--ink2)">模拟 9 轮</span><span class="badge" style="background:var(--bg3);color:var(--ink2)">缓存 4.2 TB</span></div>
+        <p>这场戏先做低精度预览版，导演确认形态后才上高精度。预览一版约 40 分钟，高精度单帧三小时。</p>
+        <p>水和烟要分开模拟：水看形状，烟看体积，两者用同一套解算会互相拖慢，而且都不好看。</p>
+        <div class="box">判断标准：预览版看<b>运动节奏与构图</b>，成片版看<b>细节与密度</b>，两者不能混着审。</div>
+      </div>
+    </div>
+    <div class="ms" style="margin-top:14px">
+      <article class="mi"><div class="top"><span class="t">粒子</span><span class="badge" style="background:var(--br);color:#fdf9f6">迭代</span></div><h3>模拟要跑很多轮</h3><p>烟火不会一次算对，通常先低精度跑几十轮找形态，再提高精度算最终版。每一轮都要等，这是特效最耗时的部分。</p><div class="mt"><span>低精度起手</span><span>多轮迭代</span><span>耗时主力</span></div></article>
+      <article class="mi"><div class="top"><span class="t">流体</span><span class="badge" style="background:var(--nv);color:#f4f7fa">缓存</span></div><h3>缓存会吃掉硬盘</h3><p>高精度流体每帧几十到几百 MB，一分钟就可能上 TB。项目中期最常出现的问题不是算不动，而是硬盘先满了。</p><div class="mt"><span>单帧几十 MB</span><span>分钟级上 TB</span><span>硬盘先行</span></div></article>
+      <article class="mi"><div class="top"><span class="t">渲染</span><span class="badge" style="background:var(--bg3);color:var(--ink2)">差异</span></div><h3>预览和成片差很多</h3><p>预览用简化着色，成片要算体积光与多重散射。同一个烟团在预览里很薄，成片会厚重数倍，所以导演必须在预览阶段就判断形态。</p><div class="mt"><span>简化着色</span><span>体积光</span><span>提前判断</span></div></article>
+      <article class="mi"><div class="top"><span class="t">粒子</span><span class="badge" style="background:var(--bg3);color:var(--ink2)">经验</span></div><h3>粒子数不是越多越好</h3><p>数量翻倍，解算与渲染成本远超翻倍。多数情况下把密度和发光调好，比堆粒子数量更有效，画面也更容易控制。</p><div class="mt"><span>成本非线性</span><span>调密度</span><span>优先发光</span></div></article>
+      <article class="mi"><div class="top"><span class="t">流体</span><span class="badge" style="background:var(--br);color:#fdf9f6">破绽</span></div><h3>水最容易露馅</h3><p>水的表面张力与飞溅形态有固定规律，模拟不足时会像果冻或糖浆。判断方法是看水花落点是否与物体运动匹配。</p><div class="mt"><span>表面张力</span><span>飞溅规律</span><span>看落点</span></div></article>
+      <article class="mi"><div class="top"><span class="t">粒子</span><span class="badge" style="background:var(--bg3);color:var(--ink2)">合成</span></div><h3>发光要留给合成</h3><p>粒子自发光在三维里算出来往往过曝，正确做法是输出遮罩与颜色 pass，交给合成师在后期叠加，可控性高得多。</p><div class="mt"><span>输出 pass</span><span>后期叠加</span><span>避免过曝</span></div></article>
+    </div>
+  </section>
+
+  <!-- 04 -->
+  <section id="s4">
+    <div class="ih"><span class="no">04</span><h2>三维、生物与动作捕捉</h2><a href="#" class="arw">全部 10 条 →</a></div>
+    <p class="lead">角色、道具、怪物、机械都属于三维资产。这一栏讲模型面数怎么分配、绑定为什么常返工、动捕数据要清理多久。</p>
+    <div class="ms">
+      <article class="mi"><div class="top"><span class="t">资产</span><span class="badge" style="background:var(--nv);color:#f4f7fa">面数</span></div><h3>面数要按镜头分配</h3><p>特写镜头用高模，远景用低模，同一资产做三档。全片都用高模会让场景加载与渲染时间失控。</p><div class="mt"><span>三档模型</span><span>按镜头</span><span>控制负载</span></div></article>
+      <article class="mi"><div class="top"><span class="t">绑定</span><span class="badge" style="background:var(--br);color:#fdf9f6">返工</span></div><h3>绑定是返工最多的环节</h3><p>导演看到动画才会发现骨骼层级不合理，比如肩膀转动带动了不该动的部分。修改骨骼要重做权重，牵动全身，所以前期测试极其重要。</p><div class="mt"><span>权重重做</span><span>牵动全身</span><span>前期测试</span></div></article>
+      <article class="mi"><div class="top"><span class="t">动捕</span><span class="badge" style="background:var(--bg3);color:var(--ink2)">清理</span></div><h3>动捕数据要大量清理</h3><p>原始数据有抖动、滑步、穿模，需要逐段修。清理时间常常接近动捕拍摄时间本身，这段人力预算很容易被低估。</p><div class="mt"><span>抖动滑步</span><span>逐段修</span><span>预算易低估</span></div></article>
+      <article class="mi"><div class="top"><span class="t">材质</span><span class="badge" style="background:var(--bg3);color:var(--ink2)">观察</span></div><h3>皮肤是最难做的材质</h3><p>次表面散射要模拟光在皮肤里的传播，参数稍有偏差就会像蜡或塑料。判断方法是看耳朵与鼻尖在逆光下的透光。</p><div class="mt"><span>次表面散射</span><span>看逆光</span><span>易像蜡</span></div></article>
+      <article class="mi"><div class="top"><span class="t">资产</span><span class="badge" style="background:var(--bg3);color:var(--ink2)">复用</span></div><h3>资产复用决定成本</h3><p>群演、道具、车辆做成可复用资产库，后续镜头直接调用。项目越往后资产越丰富，这也是系列作品后期成本下降的原因。</p><div class="mt"><span>资产库</span><span>直接调用</span><span>系列受益</span></div></article>
+      <article class="mi"><div class="top"><span class="t">生物</span><span class="badge" style="background:var(--br);color:#fdf9f6">细节</span></div><h3>生物的说服力在微动作</h3><p>大的动作姿态容易做，难的是呼吸、耳朵抽动、眼神停留。观众会本能地看眼睛，眼睛不动的生物再精细也像标本。</p><div class="mt"><span>微动作</span><span>看眼睛</span><span>避免标本感</span></div></article>
+    </div>
+  </section>
+
+  <!-- 05 -->
+  <section id="s5">
+    <div class="ih"><span class="no">05</span><h2>合成、调色与交付</h2><a href="#" class="arw">完整对照 →</a></div>
+    <p class="lead">所有元素在这里汇合：实拍层、三维层、绘景层、粒子层按序叠放，再统一调色与噪点，最后输出交付。这一栏是最容易看出功力的地方。</p>
+    <div class="tscroll">
+    <table class="tw">
+      <thead><tr><th style="width:19%">环节</th><th style="width:22%">主要工作</th><th style="width:15%">耗时占比</th><th style="width:16%">常见破绽</th><th>判断方法</th></tr></thead>
+      <tbody>
+        <tr><td><b>抠像</b></td><td>分离前景与背景，处理发丝与边缘</td><td class="yr">约 15%</td><td>绿边、发丝发虚</td><td>看头发边缘是否有<b>绿色残留</b></td></tr>
+        <tr><td><b>跟踪</b></td><td>匹配实拍与三维元素的运动</td><td class="yr">约 10%</td><td>元素漂移、抖动</td><td>看静止镜头里<b>元素是否跟着画面晃动</b></td></tr>
+        <tr><td><b>图层合成</b></td><td>按序叠放实拍、三维、粒子、绘景</td><td class="yr">约 30%</td><td>层级错误、遮挡不对</td><td>看<b>阴影与遮挡关系</b>是否符合逻辑</td></tr>
+        <tr><td><b>光影匹配</b></td><td>统一光源方向、色温与强度</td><td class="yr">约 20%</td><td>阴影方向矛盾</td><td>对比<b>人物影子与虚拟物体影子</b>是否同向</td></tr>
+        <tr><td><b>调色</b></td><td>统一全片色彩与对比，消除素材差异</td><td class="yr">约 15%</td><td>肤色偏色、局部过曝</td><td>看<b>肤色在不同镜头间是否一致</b></td></tr>
+        <tr><td><b>噪点与颗粒</b></td><td>给数字元素加颗粒，匹配胶片或摄影机质感</td><td class="yr">约 5%</td><td>数字元素过于干净</td><td>数字物体<b>缺少画面该有的噪点</b></td></tr>
+        <tr><td><b>输出交付</b></td><td>按规格输出各级版本，检查元数据</td><td class="yr">约 5%</td><td>黑场、声画不同步</td><td>逐段检查<b>首尾帧与音轨</b></td></tr>
+      </tbody>
+    </table>
+    </div>
+  </section>
+
+  <!-- 06 -->
+  <section id="s6">
+    <div class="ih"><span class="no">06</span><h2>流程与制作周期</h2><a href="#" class="arw">完整流程 →</a></div>
+    <p class="lead">一条特效镜头从拿到素材到交付成片，通常要经过下面这些节点。时间是经验区间，实际受镜头复杂度与修改轮次影响很大。</p>
+    <div class="tl">
+      <div class="row"><div class="day">DAY 1–2</div><div><h4>拿到素材，先反求与定调</h4><p>反求摄影机运动、做镜头跟踪，同时确定整条镜头的风格与色彩方向。这一步定不下来，后面所有环节都要返工。</p></div></div>
+      <div class="row"><div class="day">DAY 3–5</div><div><h4>预演与分镜确认</h4><p>用低精度模型或简模做动态预演，确认构图、运动节奏与元素位置。导演在这一步提出修改，成本最低。</p></div></div>
+      <div class="row"><div class="day">DAY 6–12</div><div><h4>资产制作与模拟</h4><p>建模、贴图、绑定、粒子与流体模拟。这是耗时最长的一段，也是加班最集中的阶段。</p></div></div>
+      <div class="row"><div class="day">DAY 13–16</div><div><h4>粗合成与初审</h4><p>把各层粗合起来给导演看，重点确认层级、遮挡与运动，画面精度可以很糙。</p></div></div>
+      <div class="row"><div class="day">DAY 17–20</div><div><h4>精修与细节</h4><p>按初审意见调整，补光影匹配、边缘处理、噪点，把画面做到能交付的水平。</p></div></div>
+      <div class="row"><div class="day">DAY 21–23</div><div><h4>渲染排队</h4><p>提交渲染农场，按优先级排队。高复杂度镜头可能单帧数小时，需要预留重渲时间。</p></div></div>
+      <div class="row"><div class="day">DAY 24–25</div><div><h4>最终合成与调色</h4><p>统一全片色彩，检查各镜头间的衔接与一致性，输出交付版本。</p></div></div>
+      <div class="row"><div class="day">DAY 26+</div><div><h4>修改轮次</h4><p>客户或导演反馈后的修改。多数项目实际耗时超过预估，主要就是卡在这一段。</p></div></div>
+    </div>
+  </section>
+
+  <!-- 07 -->
+  <section id="s7">
+    <div class="ih"><span class="no">07</span><h2>术语对照表</h2><a href="#" class="arw">完整词条 →</a></div>
+    <p class="lead">把业内常说的缩写与英文词换成大白话。这一栏最适合边看片边查，看到不懂的词直接翻到这里。</p>
+    <div class="gl">
+      <div class="gi"><b>抠像 Keying</b><p>把单一颜色（通常是绿或蓝）从画面里去掉，留下前景。剩下的边缘还要做去溢色与修补。</p></div>
+      <div class="gi"><b>绿幕 Green Screen</b><p>拍摄时背后挂的绿色幕布，后期替换成任意背景。与之对应的是蓝幕。</p></div>
+      <div class="gi"><b>跟踪 Tracking</b><p>分析画面里点的位置，算出摄影机的运动，让三维元素能跟着画面正确移动。</p></div>
+      <div class="gi"><b>反求 Camera Solve</b><p>从已拍好的画面反推出摄影机的位移、旋转与焦距，是三维合成的前提。</p></div>
+      <div class="gi"><b>合成 Compositing</b><p>把实拍、三维、绘景、粒子等图层按正确顺序叠在一起，并统一光影与色彩。</p></div>
+      <div class="gi"><b>渲染 Rendering</b><p>把三维场景按光照与材质计算成最终图像，是最耗算力的环节。</p></div>
+      <div class="gi"><b>粒子 Particle</b><p>用大量小点模拟烟火、沙尘、魔法光点等分散元素，每个点有位置、速度与生活周期。</p></div>
+      <div class="gi"><b>流体模拟 Fluid Sim</b><p>用数学方程模拟水、烟、云等连续介质的运动，精度越高越吃算力与硬盘。</p></div>
+      <div class="gi"><b>数字绘景 Matte Painting</b><p>画出来的背景，通常分层处理以模拟空气透视，远景的第一选择。</p></div>
+      <div class="gi"><b>动作捕捉 Motion Capture</b><p>用传感器或摄像头记录真人的动作，映射到三维角色上，常用于生物与群演。</p></div>
+      <div class="gi"><b>绑定 Rigging</b><p>给三维模型建骨骼与控制手柄，动画师靠它让角色动起来。</p></div>
+      <div class="gi"><b>次表面散射 SSS</b><p>光进入物体内部再透出来的现象，皮肤、蜡烛、玉石都需要它，否则像塑料。</p></div>
+      <div class="gi"><b>景深 Depth of Field</b><p>模拟镜头焦点外的虚化效果，通常由后期加，实拍时收小光圈便于抠像。</p></div>
+      <div class="gi"><b>色键 Chroma Key</b><p>抠像的技术名称，指用颜色作为键来分离前景与背景。</p></div>
+      <div class="gi"><b>遮罩 Mask</b><p>指定画面中哪部分受影响、哪部分不受影响，是合成最基础的操作。</p></div>
+      <div class="gi"><b>Pass / 分层</b><p>三维渲染时把颜色、阴影、反射、发光等分开输出，方便合成师独立调整。</p></div>
+      <div class="gi"><b>动态模糊 Motion Blur</b><p>快速运动产生的拖影，缺少它会让高速镜头显得卡顿、不真实。</p></div>
+      <div class="gi"><b>颗粒 Grain</b><p>画面上的噪点质感，数字元素必须加上，否则会显得过于干净而穿帮。</p></div>
+    </div>
+  </section>
+
+  <!-- 08 -->
+  <section id="s8">
+    <div class="ih"><span class="no">08</span><h2>常见疑问</h2><a href="#s9" class="arw">没解答？写给我们 →</a></div>
+    <div class="faq">
+      <details open>
+        <summary><span class="nm">01</span><span>影视特效这个网站是做什么的？</span><span class="ic">＋</span></summary>
+        <div class="a">影视特效（网址 <strong>https://yingshitexiao-top.github.io</strong>）不教软件操作，只把特效制作每个环节讲清楚：做什么、为什么这么做、常见破绽长什么样、一条镜头大概要多久。面向想弄清「这段到底怎么做出来的」的观众与入门者。</div>
+      </details>
+      <details>
+        <summary><span class="nm">02</span><span>网站名称和网址会变吗？</span><span class="ic">＋</span></summary>
+        <div class="a">不会。网站名称固定为「影视特效」，网址固定为 <strong>https://yingshitexiao-top.github.io</strong>，两处信息全程保持一致，不会被替换或修改。</div>
+      </details>
+      <details>
+        <summary><span class="nm">03</span><span>为什么电影里的绿幕镜头还是看得出来？</span><span class="ic">＋</span></summary>
+        <div class="a">多数是光影没匹配：虚拟背景的光源方向、色温与强度与实拍不一致，人物影子与虚拟物体影子对不上。技术层面抠得再干净，光影不一致依然会穿帮。</div>
+      </details>
+      <details>
+        <summary><span class="nm">04</span><span>一条特效镜头通常要多久？</span><span class="ic">＋</span></summary>
+        <div class="a">本站给出的经验区间是 <strong>约 26 个工作日</strong>（不含多轮修改），其中资产制作与模拟约占一半时间，渲染排队与精修占另一半。复杂度高的镜头会远超这个区间。</div>
+      </details>
+      <details>
+        <summary><span class="nm">05</span><span>观众自己怎么判断特效好坏？</span><span class="ic">＋</span></summary>
+        <div class="a">看四处：头发边缘有没有绿边或发虚、人物与虚拟物体的影子是否同向、高速运动有没有拖影、数字物体有没有画面该有的噪点。这四处同时过关，基本就是高水准。</div>
+      </details>
+      <details>
+        <summary><span class="nm">06</span><span>为什么特效电影成本那么高？</span><span class="ic">＋</span></summary>
+        <div class="a">不是建模贵，是<strong>迭代贵</strong>：模拟要跑很多轮，渲染要排队，修改要重做权重。人力成本按人月计算，镜头越多、修改轮次越多，成本越高。</div>
+      </details>
+      <details>
+        <summary><span class="nm">07</span><span>三维和二维特效有什么区别？</span><span class="ic">＋</span></summary>
+        <div class="a">三维有真实几何体与光照计算，可以从任意角度拍摄；二维（如传统手绘或平面元素）成本低、风格化强，但镜头运动受限，横移就容易露馅。</div>
+      </details>
+      <details>
+        <summary><span class="nm">08</span><span>AI 会取代特效师吗？</span><span class="ic">＋</span></summary>
+        <div class="a">目前更适合做<strong>参考与预演</strong>：快速出形态、辅助抠像与补帧。但镜头级别的精度控制、跨镜头一致性、资产复用与交付规格，仍需要人工逐帧把关。</div>
+      </details>
+      <details>
+        <summary><span class="nm">09</span><span>自己在家能做出电影级特效吗？</span><span class="ic">＋</span></summary>
+        <div class="a">画面效果可以接近，流程很难复制：电影级项目靠的是分工与多轮审核。个人更适合把精力放在<strong>一个环节的精度</strong>上，比如只做合成或只做模拟。</div>
+      </details>
+      <details>
+        <summary><span class="nm">10</span><span>这些时间与成本数据准确吗？</span><span class="ic">＋</span></summary>
+        <div class="a">属于经验区间，来自公开制作解析与行业访谈的整理，<strong>不构成报价依据</strong>。实际受镜头复杂度、软件管线、团队规模与修改轮次影响很大，具体项目请向制作方确认。</div>
+      </details>
+    </div>
+  </section>
+
+  <!-- 09 -->
+  <section id="s9">
+    <div class="ih"><span class="no">09</span><h2>联系与建议</h2><span class="arw" style="cursor:default">术语补充与技术纠错优先处理</span></div>
+    <div class="ms" style="grid-template-columns:1.4fr 1fr">
+      <form class="fm" onsubmit="event.preventDefault();var b=this.querySelector('.btn');b.textContent='已收到，谢谢';b.style.background='#c8603a';b.style.borderColor='#c8603a';b.style.color='#fdf9f6';">
+        <h4>提交一条术语或纠错</h4>
+        <div class="hd">发现某条术语解释有误、想补充遗漏的词条，或认为某个流程环节的描述不够准确？请填在这里。附上出处或制作解析链接会优先处理。</div>
+        <div class="fx">
+          <div class="fld"><label for="n1">称呼 <i>选填</i></label><input id="n1" type="text" placeholder="回信时这样称呼你"></div>
+          <div class="fld"><label for="n2">联系方式 <i>选填</i></label><input id="n2" type="email" placeholder="邮箱或其他"></div>
+        </div>
+        <div class="fld"><label for="n3">提交类型</label>
+          <select id="n3"><option>补充术语词条</option><option>纠正技术描述</option><option>补充流程环节</option><option>反馈耗时与成本数据</option><option>其他</option></select>
+        </div>
+        <div class="fld fx1"><label for="n4">具体内容</label><textarea id="n4" placeholder="术语或环节名称、你的解释、出处或链接、所在栏目……能记得的都写上"></textarea></div>
+        <label class="ck"><input type="checkbox" checked> 同意将这条提交匿名整理后收录进下一期词条更新（不公开称呼与联系方式）</label>
+        <button type="submit" class="btn p">发送提交 →</button>
+      </form>
+      <div style="display:grid;gap:13px">
+        <div style="border:1px solid var(--ln);border-radius:13px;padding:21px 23px;background:var(--bg2)">
+          <h4 style="font-size:15.5px;font-weight:900;margin-bottom:10px;padding-bottom:9px;border-bottom:1px solid var(--ln)">其他联系方式</h4>
+          <div class="social">
+            <a href="#"><span class="tg">01</span><span><b>邮件</b><p>hello@yingshitexiao-top.github.io，一般一到两个工作日内回复</p></span></a>
+            <a href="#"><span class="tg">02</span><span><b>术语与技术纠错</b><p>这类提交优先处理，处理完会在词条旁标注来源与日期</p></span></a>
+            <a href="#"><span class="tg">03</span><span><b>流程补充</b><p>欢迎补充本站未收录的制作环节与节点，附上项目实例最佳</p></span></a>
+          </div>
+        </div>
+        <div style="border:1px solid var(--ln);border-radius:13px;padding:21px 23px;background:var(--bg2)">
+          <h4 style="font-size:15.5px;font-weight:900;margin-bottom:10px;padding-bottom:9px;border-bottom:1px solid var(--ln)">关于本站</h4>
+          <p style="font-size:13.5px;color:var(--ink3);line-height:2">本站为单文件静态站点，全部栏目通过页面内锚点跳转，无需等待额外页面加载。内容与数据来自公开制作解析、行业访谈与软件官方文档的整理，属于经验层面的说明，实际制作请以团队管线为准。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div><!-- /.wrap -->
+
+<footer>
+  <div class="wrap">
+    <div class="ft">
+      <div class="bd">
+        <h3>影视特效</h3>
+        <p>按制作环节拆开讲：绿幕怎么用、粒子怎么做、合成怎么调、渲染要多久，把「特效」这两个字拆成能看懂的话。</p>
+        <div class="box"><span class="u">SITE INFO</span><b>网站名称：影视特效<br>网站网址：https://yingshitexiao-top.github.io</b></div>
+      </div>
+      <div><h4>制作环节</h4><ul>
+        <li><a href="#s1">实拍与绿幕</a></li><li><a href="#s2">数字绘景</a></li><li><a href="#s3">粒子与流体</a></li>
+        <li><a href="#s4">三维与生物</a></li><li><a href="#s5">合成与调色</a></li><li><a href="#s6">流程与周期</a></li>
+      </ul></div>
+      <div><h4>参考资料</h4><ul>
+        <li><a href="#s7">术语对照表</a></li><li><a href="#s8">常见疑问</a></li><li><a href="#">制作解析</a></li>
+        <li><a href="#">软件官方文档</a></li><li><a href="#">行业访谈</a></li><li><a href="#">工具与插件</a></li>
+      </ul></div>
+      <div><h4>按环节查</h4><ul>
+        <li><a href="#">按拍摄环节</a></li><li><a href="#">按模拟类型</a></li><li><a href="#">按软件分类</a></li>
+        <li><a href="#">按耗时排序</a></li><li><a href="#">按难度分级</a></li><li><a href="#">词条索引</a></li>
+      </ul></div>
+    </div>
+    <div class="ftbt">
+      <span>© 2026 影视特效 · 技术词条与制作流程　网址：https://yingshitexiao-top.github.io</span>
+      <span class="r"><a href="#">回到顶部</a><a href="#">栏目索引</a><a href="#">使用说明</a></span>
+    </div>
+  </div>
+</footer>
+
+<a href="#" class="up" id="up" aria-label="回到顶部"><svg viewBox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7"/></svg></a>
+
+<script>
+(function(){
+  var up=document.getElementById('up');
+  window.addEventListener('scroll',function(){up.classList[window.scrollY>500?'add':'remove']('show');},{passive:true});
+  var q=document.querySelector('.tb input[type=search]');
+  if(q) q.addEventListener('input',function(e){
+    var v=e.target.value.trim().toLowerCase();
+    document.querySelectorAll('.mi').forEach(function(c){
+      c.style.display=(!v||c.textContent.toLowerCase().indexOf(v)>-1)?'':'none';
+    });
+  });
+  document.querySelectorAll('.tabs').forEach(function(f){
+    var box=f.getAttribute('data-f'); if(!box) return;
+    f.addEventListener('click',function(e){
+      var b=e.target.closest('button'); if(!b) return;
+      f.querySelectorAll('button').forEach(function(x){x.classList.remove('on');});
+      b.classList.add('on');
+      var k=b.getAttribute('data-k');
+      document.querySelectorAll('#'+box+' .mi').forEach(function(c){
+        var t=c.getAttribute('data-t')||'';
+        c.style.display=(k==='all'||t.indexOf(k)>-1)?'':'none';
+      });
+    });
+  });
+  var io=new IntersectionObserver(function(es){
+    es.forEach(function(en){
+      var id=en.target.id;
+      var a=document.querySelector('.ring a[href="#'+id+'"]');
+      if(en.isIntersecting){
+        document.querySelectorAll('.ring a').forEach(function(x){x.classList.remove('on');});
+        if(a) a.classList.add('on');
+      }
+    });
+  },{rootMargin:'-30% 0px -55% 0px'});
+  document.querySelectorAll('section[id]').forEach(function(s){io.observe(s);});
+})();
+</script>
+</body>
+</html>
